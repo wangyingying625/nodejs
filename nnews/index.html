@@ -1,0 +1,41 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+  <% for(var i=0;i< list.length ; i++) {%>
+    <span><%= i %> </span>
+    <li><a href="/item?id=<%= list[i].id %>"> <%= list[i].aa %> </a></li>
+    <% } %>
+    <li><img src="static/001.jpg"></li>
+</ul>
+<form method="post" action="/add">
+    <input type="text" placeholder="1" name="aa">
+    <input type="submit">
+</form>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <% for(var i=0;i< list.length ; i++) {%>
+    <span><%= i %> </span>
+    <li><a href="/item?id=<%= list[i].id %>"> <%= list[i].aa %> </a></li>
+    <% } %>
+    <li><img src="static/001.jpg"></li>
+</ul>
+<form method="post" action="/add">
+    <input type="text" placeholder="1" name="aa">
+    <input type="submit">
+</form>
+</body>
+</html>
